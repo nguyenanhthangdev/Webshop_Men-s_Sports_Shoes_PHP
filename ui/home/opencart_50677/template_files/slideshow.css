@@ -1,0 +1,75 @@
+.nivoSlider {
+	position: relative;
+}
+.nivoSlider img {
+	left: 0px; top: 0px; position: absolute;
+}
+.nivoSlider a.nivo-imageLink {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 6;
+}
+.nivo-slice {
+	height: 100%; display: block; position: absolute; z-index: 5;
+}
+.nivo-box {
+	display: block; position: absolute; z-index: 5;
+}
+.nivo-caption {
+	background: rgb(0, 0, 0); left: 0px; width: 100%; bottom: 0px; color: rgb(255, 255, 255); position: absolute; z-index: 8; opacity: 0.8;
+}
+.nivo-caption p {
+	margin: 0px; padding: 5px;
+}
+.nivo-caption a {
+	display: inline !important;
+}
+.nivo-html-caption {
+	display: none;
+}
+.nivo-directionNav a {
+	top: 45%; position: absolute; z-index: 9; cursor: pointer;
+}
+.nivo-prevNav {
+	left: 0px;
+}
+.nivo-nextNav {
+	right: 0px;
+}
+.nivo-controlNav a {
+	position: relative; z-index: 9; cursor: pointer;
+}
+.nivo-controlNav a.active {
+	font-weight: bold;
+}
+.slideshow .nivoSlider {
+	background: url("../image/loading.gif") no-repeat 50% 50% rgb(255, 255, 255); margin-bottom: 20px; position: relative;
+}
+.slideshow .nivoSlider img {
+	left: 0px; top: 0px; display: none; position: absolute;
+}
+.slideshow .nivoSlider a {
+	border: 0px currentColor; border-image: none; display: block;
+}
+.slideshow .nivo-controlNav {
+	height: 22px; text-align: center; right: 10px; bottom: 5px; position: absolute; z-index: 99;
+}
+.slideshow .nivo-controlNav a {
+	background: url("../image/bullets.png") no-repeat; border: 0px currentColor; border-image: none; width: 22px; height: 22px; text-indent: -9999px; margin-right: 3px; vertical-align: top; float: left; display: block;
+}
+.slideshow .nivo-controlNav a.active {
+	background-position: 0px -22px;
+}
+.slideshow .nivo-directionNav a {
+	background: url("../image/arrows.png") no-repeat; border: 0px currentColor; border-image: none; width: 30px; height: 30px; text-indent: -9999px; display: block;
+}
+.slideshow a.nivo-nextNav {
+	background-position: -30px 0px; right: 15px;
+}
+.slideshow a.nivo-prevNav {
+	left: 15px;
+}
+.slideshow .nivo-caption {
+	font-family: Helvetica, Arial, sans-serif; text-shadow: none;
+}
+.slideshow .nivo-caption a {
+	color: rgb(239, 233, 209); text-decoration: underline;
+}

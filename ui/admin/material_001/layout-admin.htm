@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <link rel="shortcut icon" href="http://coderthemes.com/velonic/admin_2/img/favicon_1.ico">
+
+        <title>Velonic - Responsive Admin Dashboard Template</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="layout-admin_files/bootstrap.css" rel="stylesheet">
+        <link href="layout-admin_files/bootstrap-reset.css" rel="stylesheet">
+
+        <!--Animation css-->
+        <link href="layout-admin_files/animate.css" rel="stylesheet">
+
+        <!--Icon-fonts css-->
+        <link href="layout-admin_files/font-awesome.css" rel="stylesheet">
+        <link href="layout-admin_files/ionicons.css" rel="stylesheet">
+
+        <!--Morris Chart CSS -->
+        <link rel="stylesheet" href="layout-admin_files/morris.css">
+
+        <!-- sweet alerts -->
+        <link href="layout-admin_files/sweet-alert.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="layout-admin_files/style.css" rel="stylesheet">
+        <link href="layout-admin_files/helper.css" rel="stylesheet">
+
+<script src="layout-admin_files/analytics.js" async=""></script><script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-62751496-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+        
+
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+    <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+
+
+    <body class="  pace-done"><div class="pace  pace-inactive"><div data-progress="99" data-progress-text="100%" style="transform: translate3d(100%, 0px, 0px);" class="pace-progress">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+
+        <!-- Aside Start-->
+        <aside tabindex="5001" style="overflow: hidden;" class="left-panel">
+
+            <!-- brand -->
+            <div class="logo">
+                <a href="http://coderthemes.com/velonic/admin_2/index.html" class="logo-expanded">
+                    <i class="ion-social-buffer"></i>
+                    <span class="nav-label">Velonic</span>
+                </a>
+            </div>
+            <!-- / brand -->
+        
+            <!-- Navbar Start -->
+            <nav class="navigation">
+                <ul class="list-unstyled">
+                    <li class="active"><a href="http://coderthemes.com/velonic/admin_2/index.html"><i class="ion-home"></i> <span class="nav-label">Dashboard</span></a></li>
+                    <li class="has-submenu"><a href="#"><i class="ion-flask"></i> <span class="nav-label">UI Elements</span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="http://coderthemes.com/velonic/admin_2/typography.html">Typography</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/buttons.html">Buttons</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/icons.html">Icons</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/panels.html">Panels</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/tabs-accordions.html">Tabs &amp; Accordions</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/modals.html">Modals</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/bootstrap-ui.html">BS Elements</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/progressbars.html">Progress Bars</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/notification.html">Notification</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/sweet-alert.html">Sweet-Alert</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="#"><i class="ion-settings"></i> <span class="nav-label">Components</span><span class="badge bg-success">New</span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="http://coderthemes.com/velonic/admin_2/grid.html">Grid</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/portlets.html">Portlets</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/widgets.html">Widgets</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/nestable-list.html">Nesteble</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/calendar.html">Calendar</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/ui-sliders.html">Range Slider</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="#"><i class="ion-compose"></i> <span class="nav-label">Forms</span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="http://coderthemes.com/velonic/admin_2/form-elements.html">General Elements</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/form-validation.html">Form Validation</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/form-advanced.html">Advanced Form</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/form-wizard.html">Form Wizard</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/form-editor.html">WYSIWYG Editor</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/code-editor.html">Code Editors</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/form-uploads.html">Multiple File Upload</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/image-crop.html">Image Crop</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/form-xeditable.html">X-Editable</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="#"><i class="ion-grid"></i> <span class="nav-label">Data Tables</span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="http://coderthemes.com/velonic/admin_2/tables.html">Basic Tables</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/table-datatable.html">Data Table</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/tables-editable.html">Editable Table</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/responsive-table.html">Responsive Table</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="#"><i class="ion-stats-bars"></i> <span class="nav-label">Charts</span><span class="badge bg-purple">1</span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="http://coderthemes.com/velonic/admin_2/morris-chart.html">Morris Chart</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/chartjs.html">Chartjs</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/flot-chart.html">Flot Chart</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/rickshaw-chart.html">Rickshaw Chart</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/peity-chart.html">Peity Chart</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/c3-chart.html">C3 Chart</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/other-chart.html">Other Chart</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has-submenu"><a href="#"><i class="ion-email"></i> <span class="nav-label">Mail</span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="http://coderthemes.com/velonic/admin_2/inbox.html">Inbox</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/email-compose.html">Compose Mail</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/email-read.html">View Mail</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/email-templates.html">Email Templates</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="has-submenu"><a href="#"><i class="ion-location"></i> <span class="nav-label">Maps</span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="http://coderthemes.com/velonic/admin_2/gmap.html"> Google Map</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/vector-map.html"> Vector Map</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="#"><i class="ion-document"></i> <span class="nav-label">Pages</span><span class="badge bg-pink">5</span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="http://coderthemes.com/velonic/admin_2/profile.html">Profile</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/timeline.html">Timeline</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/invoice.html">Invoice</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/contact.html">Contact-list</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/login.html">Login</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/register.html">Register</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/recoverpw.html">Recover Password</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/lock-screen.html">Lock Screen</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/blank.html">Blank Page</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/404.html">404 Error</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/404_alt.html">404 alt</a></li>
+                            <li><a href="http://coderthemes.com/velonic/admin_2/500.html">500 Error</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+                
+        </aside>
+        <!-- Aside Ends-->
+
+
+        <!--Main Content Start -->
+        <section class="content">
+            
+            <!-- Header -->
+            <header class="top-head container-fluid">
+                <button type="button" class="navbar-toggle pull-left">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <!-- Search -->
+                <form role="search" class="navbar-left app-search pull-left hidden-xs">
+                  <input placeholder="Search..." class="form-control" type="text">
+                  <a href=""><i class="fa fa-search"></i></a>
+                </form>
+                
+                <!-- Left navbar -->
+                <nav class=" navbar-default hidden-xs" role="navigation">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                          <a data-toggle="dropdown" class="dropdown-toggle" href="#">English <span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="#">German</a></li>
+                                <li><a href="#">French</a></li>
+                                <li><a href="#">Italian</a></li>
+                                <li><a href="#">Spanish</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Files</a></li>
+                    </ul>
+                </nav>
+                
+                <!-- Right navbar -->
+                <ul class="list-inline navbar-right top-menu top-right-menu">  
+                    <!-- mesages -->  
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="fa fa-envelope-o "></i>
+                            <span class="badge badge-sm up bg-purple count">4</span>
+                        </a>
+                        <ul style="overflow: hidden;" class="dropdown-menu extended fadeInUp animated nicescroll" tabindex="5001">
+                            <li>
+                                <p>Messages</p>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="pull-left"><img src="layout-admin_files/avatar-2.jpg" class="img-circle thumb-sm m-r-15" alt="img"></span>
+                                    <span class="block"><strong>John smith</strong></span>
+                                    <span class="media-body block">New tasks needs to be done<br><small class="text-muted">10 seconds ago</small></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="pull-left"><img src="layout-admin_files/avatar-3.jpg" class="img-circle thumb-sm m-r-15" alt="img"></span>
+                                    <span class="block"><strong>John smith</strong></span>
+                                    <span class="media-body block">New tasks needs to be done<br><small class="text-muted">3 minutes ago</small></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="pull-left"><img src="layout-admin_files/avatar-4.jpg" class="img-circle thumb-sm m-r-15" alt="img"></span>
+                                    <span class="block"><strong>John smith</strong></span>
+                                    <span class="media-body block">New tasks needs to be done<br><small class="text-muted">10 minutes ago</small></span>
+                                </a>
+                            </li>
+                            <li>
+                                <p><a href="http://coderthemes.com/velonic/admin_2/inbox.html" class="text-right">See all Messages</a></p>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- /messages -->
+                    <!-- Notification -->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <i class="fa fa-bell-o"></i>
+                            <span class="badge badge-sm up bg-pink count">3</span>
+                        </a>
+                        <ul style="overflow: hidden;" class="dropdown-menu extended fadeInUp animated nicescroll" tabindex="5002">
+                            <li class="noti-header">
+                                <p>Notifications</p>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="pull-left"><i class="fa fa-user-plus fa-2x text-info"></i></span>
+                                    <span>New user registered<br><small class="text-muted">5 minutes ago</small></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="pull-left"><i class="fa fa-diamond fa-2x text-primary"></i></span>
+                                    <span>Use animate.css<br><small class="text-muted">5 minutes ago</small></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="pull-left"><i class="fa fa-bell-o fa-2x text-danger"></i></span>
+                                    <span>Send project demo files to client<br><small class="text-muted">1 hour ago</small></span>
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <p><a href="#" class="text-right">See all notifications</a></p>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- /Notification -->
+
+                    <!-- user login dropdown start-->
+                    <li class="dropdown text-center">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <img alt="" src="layout-admin_files/avatar-2.jpg" class="img-circle profile-img thumb-sm">
+                            <span class="username">John Deo </span> <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu extended pro-menu fadeInUp animated" tabindex="5003" style="overflow: hidden; outline: none;">
+                            <li><a href="http://coderthemes.com/velonic/admin_2/profile.html"><i class="fa fa-briefcase"></i>Profile</a></li>
+                            <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+                            <li><a href="#"><i class="fa fa-bell"></i> Friends <span class="label label-info pull-right mail-info">5</span></a></li>
+                            <li><a href="#"><i class="fa fa-sign-out"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                    <!-- user login dropdown end -->       
+                </ul>
+                <!-- End right navbar -->
+
+            </header>
+            <!-- Header Ends -->
+
+
+            <!-- Page Content Start -->
+            <!-- ================== -->
+
+            <div class="wraper container-fluid">
+                <div class="page-title"> 
+                    <h3 class="title">Welcome !</h3> 
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget-panel widget-style-2 white-bg">
+                            <i class="ion-eye text-pink"></i> 
+                            <h2 class="m-0 counter">50</h2>
+                            <div>Daily Visits</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget-panel widget-style-2 white-bg">
+                            <i class="ion-wifi text-purple"></i> 
+                            <h2 class="m-0 counter">8956</h2>
+                            <div>Sales</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget-panel widget-style-2 white-bg">
+                            <i class="ion-ios7-pricetag text-info"></i> 
+                            <h2 class="m-0 counter">1268</h2>
+                            <div>New Orders</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="widget-panel widget-style-2 white-bg">
+                            <i class="ion-android-contacts text-success"></i> 
+                            <h2 class="m-0 counter">145</h2>
+                            <div>New Users</div>
+                        </div>
+                    </div>
+                </div> <!-- end row -->
+
+
+
+                <div class="row">
+                    
+
+                    <div class="col-lg-6">
+                        <div class="portlet"><!-- /primary heading -->
+                            <div class="portlet-heading">
+                                <h3 class="portlet-title text-dark text-uppercase">
+                                    Yearly Sales Report
+                                </h3>
+                                <div class="portlet-widgets">
+                                    <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+                                    <span class="divider"></span>
+                                    <a data-toggle="collapse" data-parent="#accordion1" href="#portlet2"><i class="ion-minus-round"></i></a>
+                                    <span class="divider"></span>
+                                    <a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="portlet2" class="panel-collapse collapse in">
+                                <div class="portlet-body">
+                                    <div id="morris-area-example" style="height: 320px; position: relative;"><svg style="overflow: hidden; position: relative; top: -0.183319px;" xmlns="http://www.w3.org/2000/svg" width="525" version="1.1" height="320"><desc>Created with RaphaĂŤl 2.1.0</desc><defs></defs><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="281" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">0</tspan></text><path stroke-width="0.5" d="M49,281H500" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="217" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">50</tspan></text><path stroke-width="0.5" d="M49,217H500" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="153" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">100</tspan></text><path stroke-width="0.5" d="M49,153H500" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="89" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">150</tspan></text><path stroke-width="0.5" d="M49,89H500" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="25" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">200</tspan></text><path stroke-width="0.5" d="M49,25H500" stroke="#aaaaaa" fill="none" style=""></path><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="293.5" x="500" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2015</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="293.5" x="424.8676403468736" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2014</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="293.5" x="349.73528069374714" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2013</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="293.5" x="274.3970789593793" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2012</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="293.5" x="199.26471930625286" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2011</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="293.5" x="124.13235965312643" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2010</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="293.5" x="49" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">2009</tspan></text><path fill-opacity="1" d="M49,242.6C67.7830899132816,207.39999999999998,105.34926973984483,111.39999999999998,124.13235965312643,101.79999999999998C142.91544956640803,92.19999999999999,180.48162939297126,165.8,199.26471930625286,165.8C218.04780921953449,165.8,255.61398904609769,101.79999999999998,274.3970789593793,101.79999999999998C293.2316293929713,101.79999999999998,330.90073026015517,165.8,349.73528069374714,165.8C368.51837060702877,165.8,406.08455043359197,111.39999999999999,424.8676403468736,101.79999999999998C443.6507302601552,92.19999999999999,481.21691008671837,92.19999999999999,500,89L500,281L49,281Z" stroke="none" fill="#b5c1e1" style="fill-opacity: 1;"></path><path stroke-width="0" d="M49,242.6C67.7830899132816,207.39999999999998,105.34926973984483,111.39999999999998,124.13235965312643,101.79999999999998C142.91544956640803,92.19999999999999,180.48162939297126,165.8,199.26471930625286,165.8C218.04780921953449,165.8,255.61398904609769,101.79999999999998,274.3970789593793,101.79999999999998C293.2316293929713,101.79999999999998,330.90073026015517,165.8,349.73528069374714,165.8C368.51837060702877,165.8,406.08455043359197,111.39999999999999,424.8676403468736,101.79999999999998C443.6507302601552,92.19999999999999,481.21691008671837,92.19999999999999,500,89" stroke="#6e8cd7" fill="none" style=""></path><circle stroke-width="1" style="" stroke="#ffffff" fill="#6e8cd7" r="4" cy="242.6" cx="49"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#6e8cd7" r="4" cy="101.79999999999998" cx="124.13235965312643"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#6e8cd7" r="4" cy="165.8" cx="199.26471930625286"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#6e8cd7" r="4" cy="101.79999999999998" cx="274.3970789593793"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#6e8cd7" r="4" cy="165.8" cx="349.73528069374714"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#6e8cd7" r="4" cy="101.79999999999998" cx="424.8676403468736"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#6e8cd7" r="7" cy="89" cx="500"></circle><path fill-opacity="1" d="M49,268.2C67.7830899132816,247.39999999999998,105.34926973984483,191.4,124.13235965312643,185C142.91544956640803,178.6,180.48162939297126,217,199.26471930625286,217C218.04780921953449,217,255.61398904609769,185,274.3970789593793,185C293.2316293929713,185,330.90073026015517,217,349.73528069374714,217C368.51837060702877,217,406.08455043359197,191.4,424.8676403468736,185C443.6507302601552,178.6,481.21691008671837,170.60000000000002,500,165.8L500,281L49,281Z" stroke="none" fill="#3d424c" style="fill-opacity: 1;"></path><path stroke-width="0" d="M49,268.2C67.7830899132816,247.39999999999998,105.34926973984483,191.4,124.13235965312643,185C142.91544956640803,178.6,180.48162939297126,217,199.26471930625286,217C218.04780921953449,217,255.61398904609769,185,274.3970789593793,185C293.2316293929713,185,330.90073026015517,217,349.73528069374714,217C368.51837060702877,217,406.08455043359197,191.4,424.8676403468736,185C443.6507302601552,178.6,481.21691008671837,170.60000000000002,500,165.8" stroke="#2f353f" fill="none" style=""></path><circle stroke-width="1" style="" stroke="#ffffff" fill="#2f353f" r="4" cy="268.2" cx="49"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#2f353f" r="4" cy="185" cx="124.13235965312643"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#2f353f" r="4" cy="217" cx="199.26471930625286"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#2f353f" r="4" cy="185" cx="274.3970789593793"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#2f353f" r="4" cy="217" cx="349.73528069374714"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#2f353f" r="4" cy="185" cx="424.8676403468736"></circle><circle stroke-width="1" style="" stroke="#ffffff" fill="#2f353f" r="7" cy="165.8" cx="500"></circle></svg><div style="left: 442px; top: 79px;" class="morris-hover morris-default-style"><div class="morris-hover-row-label">2015</div><div class="morris-hover-point" style="color: #2f353f">
+  Series A:
+  90
+</div><div class="morris-hover-point" style="color: #6e8cd7">
+  Series B:
+  60
+</div></div></div>
+                                    <div class="row text-center m-t-30 m-b-30">
+                                        <div class="col-sm-3 col-xs-6">
+                                            <h4>$ 126</h4>
+                                            <small class="text-muted"> Today's Sales</small>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-6">
+                                            <h4>$ 967</h4>
+                                            <small class="text-muted">This Week's Sales</small>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-6">
+                                            <h4>$ 4500</h4>
+                                            <small class="text-muted">This Month's Sales</small>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-6">
+                                            <h4>$ 87,000</h4>
+                                            <small class="text-muted">This Year's Sales</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- /Portlet -->
+                        
+                    </div>
+
+
+                    <div class="col-lg-6">
+                        <div class="portlet"><!-- /primary heading -->
+                            <div class="portlet-heading">
+                                <h3 class="portlet-title text-dark text-uppercase">
+                                    Weekly Sales Report
+                                </h3>
+                                <div class="portlet-widgets">
+                                    <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+                                    <span class="divider"></span>
+                                    <a data-toggle="collapse" data-parent="#accordion1" href="#portlet1"><i class="ion-minus-round"></i></a>
+                                    <span class="divider"></span>
+                                    <a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="portlet1" class="panel-collapse collapse in">
+                                <div class="portlet-body">
+                                    <div id="morris-bar-example" style="height: 320px; position: relative;"><svg style="overflow: hidden; position: relative; left: -0.5px; top: -0.183319px;" xmlns="http://www.w3.org/2000/svg" width="525" version="1.1" height="320"><desc>Created with RaphaĂŤl 2.1.0</desc><defs></defs><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="281" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">0</tspan></text><path stroke-width="0.5" d="M49,281H500" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="217" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">25</tspan></text><path stroke-width="0.5" d="M49,217H500" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="153" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">50</tspan></text><path stroke-width="0.5" d="M49,153H500" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="89" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">75</tspan></text><path stroke-width="0.5" d="M49,89H500" stroke="#aaaaaa" fill="none" style=""></path><text font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="end" y="25" x="36.5" style="text-anchor: end; font: 12px sans-serif;"><tspan dy="4">100</tspan></text><path stroke-width="0.5" d="M49,25H500" stroke="#aaaaaa" fill="none" style=""></path><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="293.5" x="462.4166666666667" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">Day6</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="293.5" x="312.0833333333333" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">Day4</tspan></text><text transform="matrix(1,0,0,1,0,7)" font-weight="normal" font-family="sans-serif" font-size="12px" fill="#888888" stroke="none" font="10px &quot;Arial&quot;" text-anchor="middle" y="293.5" x="161.75" style="text-anchor: middle; font: 12px sans-serif;"><tspan dy="4">Day2</tspan></text><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#6e8cd7" ry="0" rx="0" r="0" height="192" width="16.791666666666668" y="89" x="58.395833333333336"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#2f353f" ry="0" rx="0" r="0" height="166.4" width="16.791666666666668" y="114.6" x="78.1875"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#dcdcdc" ry="0" rx="0" r="0" height="51.19999999999999" width="16.791666666666668" y="229.8" x="97.97916666666667"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#6e8cd7" ry="0" rx="0" r="0" height="128" width="16.791666666666668" y="153" x="133.5625"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#2f353f" ry="0" rx="0" r="0" height="102.4" width="16.791666666666668" y="178.6" x="153.35416666666666"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#dcdcdc" ry="0" rx="0" r="0" height="128" width="16.791666666666668" y="153" x="173.14583333333334"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#6e8cd7" ry="0" rx="0" r="0" height="192" width="16.791666666666668" y="89" x="208.72916666666669"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#2f353f" ry="0" rx="0" r="0" height="166.4" width="16.791666666666668" y="114.6" x="228.52083333333334"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#dcdcdc" ry="0" rx="0" r="0" height="243.20000000000002" width="16.791666666666668" y="37.79999999999998" x="248.31250000000003"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#6e8cd7" ry="0" rx="0" r="0" height="128" width="16.791666666666668" y="153" x="283.8958333333333"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#2f353f" ry="0" rx="0" r="0" height="102.4" width="16.791666666666668" y="178.6" x="303.6875"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#dcdcdc" ry="0" rx="0" r="0" height="56.31999999999999" width="16.791666666666668" y="224.68" x="323.47916666666663"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#6e8cd7" ry="0" rx="0" r="0" height="192" width="16.791666666666668" y="89" x="359.0625"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#2f353f" ry="0" rx="0" r="0" height="166.4" width="16.791666666666668" y="114.6" x="378.8541666666667"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#dcdcdc" ry="0" rx="0" r="0" height="143.36" width="16.791666666666668" y="137.64" x="398.6458333333333"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#6e8cd7" ry="0" rx="0" r="0" height="256" width="16.791666666666668" y="25" x="434.2291666666667"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#2f353f" ry="0" rx="0" r="0" height="230.4" width="16.791666666666668" y="50.599999999999994" x="454.02083333333337"></rect><rect fill-opacity="1" style="fill-opacity: 1;" stroke="none" fill="#dcdcdc" ry="0" rx="0" r="0" height="153.6" width="16.791666666666668" y="127.4" x="473.8125"></rect></svg><div style="left: 417.917px; top: 113px;" class="morris-hover morris-default-style"><div class="morris-hover-row-label">Day6</div><div class="morris-hover-point" style="color: #6e8cd7">
+  Series A:
+  100
+</div><div class="morris-hover-point" style="color: #2f353f">
+  Series B:
+  90
+</div><div class="morris-hover-point" style="color: #dcdcdc">
+  Series c:
+  60
+</div></div></div>
+
+                                    <div class="row text-center m-t-30 m-b-30">
+                                        <div class="col-sm-3 col-xs-6">
+                                            <h4>$ 126</h4>
+                                            <small class="text-muted"> Today's Sales</small>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-6">
+                                            <h4>$ 967</h4>
+                                            <small class="text-muted">This Week's Sales</small>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-6">
+                                            <h4>$ 4500</h4>
+                                            <small class="text-muted">This Month's Sales</small>
+                                        </div>
+                                        <div class="col-sm-3 col-xs-6">
+                                            <h4>$ 87,000</h4>
+                                            <small class="text-muted">This Year's Sales</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- /Portlet -->
+
+                    </div> <!-- end col -->
+                </div> <!-- End row -->
+
+
+
+                <div class="row">
+                    <div class="col-lg-4">
+
+                        <!-- TODO -->
+                        <div class="portlet" id="todo-container"><!-- /primary heading -->
+                            <div class="portlet-heading">
+                                <h3 class="portlet-title text-dark text-uppercase">
+                                    Todo
+                                </h3>
+                                <div class="portlet-widgets">
+                                    <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+                                    <span class="divider"></span>
+                                    <a data-toggle="collapse" data-parent="#accordion1" href="#portlet-5" class="" aria-expanded="true"><i class="ion-minus-round"></i></a>
+                                    <span class="divider"></span>
+                                    <a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="portlet-5" class="panel-collapse collapse in">
+                                <div class="portlet-body todoapp">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <h4 id="todo-message"><span id="todo-remaining">3</span> of <span id="todo-total">7</span> remaining</h4> 
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <a href="" class="pull-right btn btn-primary btn-sm" id="btn-archive">Archive</a>
+                                        </div>
+                                    </div>
+
+                                    <ul tabindex="5000" class="list-group no-margn nicescroll todo-list" style="max-height: 275px; overflow: hidden;" id="todo-list"><li class="list-group-item"><label class="cr-styled"><input checked="checked" class="todo-done" id="7" type="checkbox"><i class="fa"></i></label><span class="todo-text">Build an angular app</span></li><li class="list-group-item"><label class="cr-styled"><input class="todo-done" id="6" type="checkbox"><i class="fa"></i></label><span class="todo-text">Design One page theme!</span></li><li class="list-group-item"><label class="cr-styled"><input class="todo-done" id="5" type="checkbox"><i class="fa"></i></label><span class="todo-text">Hehe!! This is looks cool!</span></li><li class="list-group-item"><label class="cr-styled"><input checked="checked" class="todo-done" id="4" type="checkbox"><i class="fa"></i></label><span class="todo-text">Testing??</span></li><li class="list-group-item"><label class="cr-styled"><input checked="checked" class="todo-done" id="3" type="checkbox"><i class="fa"></i></label><span class="todo-text">Creating component page</span></li><li class="list-group-item"><label class="cr-styled"><input checked="checked" class="todo-done" id="2" type="checkbox"><i class="fa"></i></label><span class="todo-text">Build a js based app</span></li><li class="list-group-item"><label class="cr-styled"><input class="todo-done" id="1" type="checkbox"><i class="fa"></i></label><span class="todo-text">New Version !!</span></li></ul>
+
+                                     <form name="todo-form" id="todo-form" role="form" class="m-t-20">
+                                        <div class="row">
+                                            <div class="col-sm-9 todo-inputbar">
+                                                <input id="todo-input-text" name="todo-input-text" class="form-control" placeholder="Add new todo" type="text">
+                                            </div>
+                                            <div class="col-sm-3 todo-send">
+                                                <button class="btn-info btn-block btn" type="button" id="todo-btn-submit">Add</button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end col -->
+
+                    <div class="col-lg-8">
+
+                        <div class="portlet"><!-- /primary heading -->
+                            <div class="portlet-heading">
+                                <h3 class="portlet-title text-dark text-uppercase">
+                                    Projects
+                                </h3>
+                                <div class="portlet-widgets">
+                                    <a href="javascript:;" data-toggle="reload"><i class="ion-refresh"></i></a>
+                                    <span class="divider"></span>
+                                    <a data-toggle="collapse" data-parent="#accordion1" href="#portlet2"><i class="ion-minus-round"></i></a>
+                                    <span class="divider"></span>
+                                    <a href="#" data-toggle="remove"><i class="ion-close-round"></i></a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div id="portlet2" class="panel-collapse collapse in">
+                                <div class="portlet-body">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Project Name</th>
+                                                    <th>Start Date</th>
+                                                    <th>Due Date</th>
+                                                    <th>Status</th>
+                                                    <th>Assign</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Velonic Admin v1</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>26/04/2015</td>
+                                                    <td><span class="label label-info">Released</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Velonic Frontend v1</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>26/04/2015</td>
+                                                    <td><span class="label label-success">Released</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Velonic Admin v1.1</td>
+                                                    <td>01/05/2015</td>
+                                                    <td>10/05/2015</td>
+                                                    <td><span class="label label-pink">Pending</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Velonic Frontend v1.1</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>31/05/2015</td>
+                                                    <td><span class="label label-purple">Work in Progress</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Velonic Admin v1.3</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>31/05/2015</td>
+                                                    <td><span class="label label-warning">Coming soon</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Velonic Admin v1.3</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>31/05/2015</td>
+                                                    <td><span class="label label-primary">Coming soon</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>Velonic Admin v1.3</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>31/05/2015</td>
+                                                    <td><span class="label label-info">Cool</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>Velonic Admin v1.3</td>
+                                                    <td>01/01/2015</td>
+                                                    <td>31/05/2015</td>
+                                                    <td><span class="label label-warning">Coming soon</span></td>
+                                                    <td>Coderthemes</td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end col -->
+
+                    
+                </div> <!-- End row -->
+
+
+            </div>
+            <!-- Page Content Ends -->
+            <!-- ================== -->
+
+            <!-- Footer Start -->
+            <footer class="footer">
+                2015 © Velonic.
+            </footer>
+            <!-- Footer Ends -->
+
+
+
+        </section>
+        <!-- Main Content Ends -->
+        
+
+
+        <!-- js placed at the end of the document so the pages load faster -->
+        <script src="layout-admin_files/jquery_002.js"></script>
+        <script src="layout-admin_files/bootstrap.js"></script>
+        <script src="layout-admin_files/modernizr.js"></script>
+        <script src="layout-admin_files/pace.js"></script>
+        <script src="layout-admin_files/wow.js"></script>
+        <script src="layout-admin_files/jquery_006.js"></script>
+        <script src="layout-admin_files/jquery_003.js" type="text/javascript"></script>
+        <script src="layout-admin_files/moment-2.js"></script>
+
+        <!-- Counter-up -->
+        <script src="layout-admin_files/waypoints.js" type="text/javascript"></script>
+        <script src="layout-admin_files/jquery_004.js" type="text/javascript"></script>
+
+        <!-- EASY PIE CHART JS -->
+        <script src="layout-admin_files/easypiechart.js"></script>
+        <script src="layout-admin_files/jquery_007.js"></script>
+        <script src="layout-admin_files/example.js"></script>
+
+
+        <!--C3 Chart-->
+        <script src="layout-admin_files/d3.js"></script>
+        <script src="layout-admin_files/c3.js"></script>
+
+        <!--Morris Chart-->
+        <script src="layout-admin_files/morris.js"></script>
+        <script src="layout-admin_files/raphael.js"></script>
+
+        <!-- sparkline --> 
+        <script src="layout-admin_files/jquery.js" type="text/javascript"></script>
+        <script src="layout-admin_files/chart-sparkline.js" type="text/javascript"></script> 
+
+        <!-- sweet alerts -->
+        <script src="layout-admin_files/sweet-alert.js"></script>
+        <script src="layout-admin_files/sweet-alert_002.js"></script>
+
+        <script src="layout-admin_files/jquery_008.js"></script><div style="width: 7px; z-index: 3; cursor: default; position: absolute; top: 0px; left: 273px; height: 327px; display: none;" class="nicescroll-rails" id="ascrail2000"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(157, 158, 165); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 0px;"></div></div><div style="height: 7px; z-index: 3; top: 320px; left: 0px; position: absolute; cursor: default; display: none;" class="nicescroll-rails" id="ascrail2000-hr"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(157, 158, 165); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 0px;"></div></div><div style="width: 7px; z-index: 3; cursor: default; position: absolute; top: 0px; left: 273px; height: 267px; display: none;" class="nicescroll-rails" id="ascrail2001"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(157, 158, 165); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 0px;"></div></div><div style="height: 7px; z-index: 3; top: 260px; left: 0px; position: absolute; cursor: default; display: none;" class="nicescroll-rails" id="ascrail2001-hr"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(157, 158, 165); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 0px;"></div></div><div style="width: 7px; z-index: auto; cursor: default; position: absolute; top: 928.183px; left: 596px; height: 275px; opacity: 0;" class="nicescroll-rails" id="ascrail2002"><div style="position: relative; top: 0px; float: right; width: 5px; height: 241px; background-color: rgb(157, 158, 165); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 0px;"></div></div><div style="height: 7px; z-index: auto; top: 1196.18px; left: 301px; position: absolute; cursor: default; display: none; width: 295px; opacity: 0;" class="nicescroll-rails" id="ascrail2002-hr"><div style="position: relative; top: 0px; height: 5px; width: 302px; background-color: rgb(157, 158, 165); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 0px;"></div></div><div style="width: 5px; z-index: auto; cursor: default; position: fixed; top: 0px; left: 245px; height: 789px; display: none; opacity: 0;" class="nicescroll-rails" id="ascrail2003"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(142, 144, 154); border: 0px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 0px;"></div></div><div style="height: 5px; z-index: auto; top: 784px; left: 0px; position: fixed; cursor: default; display: none; opacity: 0;" class="nicescroll-rails" id="ascrail2003-hr"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(142, 144, 154); border: 0px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 0px; left: 0px;"></div></div>
+        <!-- Chat -->
+        <script src="layout-admin_files/jquery_005.js"></script>
+        <!-- Dashboard -->
+        <script src="layout-admin_files/jquery_009.js"></script>
+
+        <!-- Todo -->
+        <script src="layout-admin_files/jquery_010.js"></script>
+
+
+        <script type="text/javascript">
+        /* ==============================================
+             Counter Up
+             =============================================== */
+            jQuery(document).ready(function($) {
+                $('.counter').counterUp({
+                    delay: 100,
+                    time: 1200
+                });
+            });
+        </script>
+    
+
+    
+
+</body></html>

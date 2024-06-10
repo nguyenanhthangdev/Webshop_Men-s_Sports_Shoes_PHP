@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<body>
+
+<div id="myPlot" style="width:100%;max-width:3000px"></div>
+
+<?php 
+    $rs = productCharts();
+?>;
+
+<script type="text/javascript">
+
+    var xArray = <?php
+        $array = "";
+        foreach($rs as $item){
+            $array = $array . $item['name'] . ",";
+        }
+
+        echo '"' . $array . '"';
+    ?>;
+
+    let arr = xArray.split(',');
+   
+    var yArray = [55, 49, 44, 24, 15, 55, 49, 44, 24, 15,55, 49, 44, 24, 15, 55, 49, 44, 24, 15,55, 49, 44, 24, 15, 55, 49, 44, 24, 15];
+
+    var data = [{
+    x:arr,
+    y:yArray,
+    type:"bar"
+    }];
+
+    var layout = {title:"Số liệu các sản phẩm"};
+
+    Plotly.newPlot("myPlot", data, layout);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+#menu {
+	background: url("../image/menu.png") repeat-x left top rgb(60, 67, 74); border-radius: 10px;
+}
+#menu ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#menu > ul > li {
+	background: url("../image/separator.png") no-repeat right; padding: 16px 25px 17px; width: 75px; text-align: center; float: left; position: relative; z-index: 10; min-height: 28px;
+}
+#menu > ul > li > a {
+	color: rgb(255, 255, 255); text-transform: uppercase; line-height: 14px; font-family: "Open Sans"; font-size: 12px; text-decoration: none; vertical-align: top; display: inline-block; position: relative; z-index: 1;
+}
+#menu > ul > li > a:hover {
+	color: rgb(126, 206, 253);
+}
+#menu > ul > li.sfHover > a {
+	color: rgb(126, 206, 253);
+}
+#menu > ul > li.active > a {
+	color: rgb(126, 206, 253);
+}
+#menu > ul > li ul {
+	background: rgb(67, 75, 83); margin: 0px !important; left: 0px; top: 61px; width: 193px; border-top-color: currentColor; border-top-width: 0px; border-top-style: none; display: none; position: absolute; z-index: 99;
+}
+#menu span.sf-sub-indicator {
+	position: relative;
+}
+#menu span.sf-sub-indicator::after {
+	background-position: 0px 0px; height: auto; color: rgb(255, 255, 255); line-height: 0px; padding-left: 7px; font-family: FontAwesome; font-size: 16px; font-style: normal; font-weight: normal; text-decoration: inherit; margin-top: 0px; vertical-align: middle; display: inline; content: "\f107"; background-image: none; background-repeat: repeat;
+}
+#menu ul li li span.sf-sub-indicator {
+	float: right;
+}
+#menu ul li li span.sf-sub-indicator::after {
+	font-size: 16px; content: "\f105";
+}
+#menu > ul > li:hover > div {
+	display: table;
+}
+#menu > ul > li ul + ul {
+	padding-left: 0px; min-height: 162px;
+}
+#menu > ul > li ul > li > a:hover {
+	color: rgb(126, 206, 253);
+}
+#menu > ul > li ul > li.active > a {
+	color: rgb(126, 206, 253);
+}
+#menu > ul > li ul > li.sfHover > a {
+	color: rgb(126, 206, 253);
+}
+#menu > ul > li > ul li:first-child {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+#menu > ul > li > ul li {
+	padding: 6px 19px 7px; text-align: left; border-top-color: rgb(79, 87, 97); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+#menu > ul > li > ul > li a {
+	text-align: left; color: rgb(255, 255, 255); text-transform: none; line-height: 18px; font-size: 12px; text-decoration: none;
+}
+#menu ul > li ul ul {
+	left: 193px; top: 0px; position: absolute;
+}
+#menu ul > ul > li ul li a:hover {
+	color: rgb(55, 162, 41);
+}
+#menu > ul > li > ul > li a.active {
+	color: rgb(55, 162, 41);
+}
+#menu-icon {
+	background: rgb(126, 206, 253); padding: 10px 17px; border-radius: 5px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 30px; font-size: 17px; font-weight: bold; display: block; position: relative; cursor: pointer;
+}
+#menu-icon::after {
+	background-position: 0px 0px; width: 1.25em; height: auto; text-align: center; color: rgb(255, 255, 255); line-height: normal; font-family: FontAwesome; font-size: 26px; font-style: normal; font-weight: normal; text-decoration: inherit; margin-top: 0px; vertical-align: middle; float: right; display: inline-block; content: "\f107"; background-image: none; background-repeat: repeat;
+}
+.active#menu-icon::after {
+	content: "\f106";
+}
+.sf-menu-phone {
+	display: none;
+}
+.sf-menu-phone li {
+	position: relative; background-color: rgb(50, 50, 50);
+}
+.sf-menu-phone li a {
+	color: rgb(255, 255, 255); border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; display: inline-block;
+}
+.sf-menu-phone li {
+	padding: 0px; font-size: 19px; font-weight: bold;
+}
+.sf-menu-phone li > a {
+	padding: 10px 15px; display: block;
+}
+.sf-menu-phone li li a {
+	padding: 10px 15px 10px 25px; display: block;
+}
+.sf-menu-phone li li li a {
+	padding: 10px 15px 10px 35px; display: block;
+}
+.sf-menu-phone li a:hover {
+	color: rgb(185, 1, 0);
+}
+.sf-menu-phone li li {
+	font-size: 14px;
+}
+.sf-menu-phone li li.last {
+	padding-bottom: 0px !important;
+}
+.sf-menu-phone li i {
+	top: 2px; width: 24px; height: 24px; right: 0px; display: block; position: absolute;
+}
+.sf-menu-phone li i {
+	padding: 0px 20px; top: 8px; right: 5px; color: rgb(126, 206, 253); font-size: 21px;
+}
+.sf-menu-phone li i.icon-angle-up::before {
+	content: "\f106" !important;
+}
+.sf-menu-phone li i:hover {
+	cursor: pointer;
+}
+.sf-menu-phone li i.opened {
+	background-position: center 7px;
+}
+.sf-menu-phone ul {
+	padding: 0px; width: auto; display: none;
+}
+.sf-menu-phone li.active > a > span {
+	color: inherit;
+}
+.sf-menu-phone li.active > a {
+	background: rgb(74, 74, 74); color: rgb(255, 255, 255);
+}
+.sf-menu-phone li:hover > a {
+	background: rgb(74, 74, 74); color: rgb(255, 255, 255);
+}
+.sf-menu-phone li li.active > a {
+	color: rgb(204, 204, 204);
+}
+.sf-menu-phone li li a:hover {
+	color: rgb(204, 204, 204);
+}

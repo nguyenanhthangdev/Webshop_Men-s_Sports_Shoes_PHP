@@ -1,0 +1,27 @@
+.owl-origin {
+	perspective: 1200px; -webkit-perspective: 1200px; -webkit-perspective-origin-x: 50%; -webkit-perspective-origin-y: 50%; -moz-perspective: 1200px; -moz-perspective-origin-x: 50%; -moz-perspective-origin-y: 50%;
+}
+.owl-fade-out {
+	animation:fadeOut 0.7s both; z-index: 10; -webkit-animation: fadeOut .7s both ease; -moz-animation: fadeOut .7s both ease;
+}
+.owl-fade-in {
+	animation:fadeIn 0.7s both; -webkit-animation: fadeIn .7s both ease; -moz-animation: fadeIn .7s both ease;
+}
+.owl-backSlide-out {
+	animation:backSlideOut 1s both; -webkit-animation: backSlideOut 1s both ease; -moz-animation: backSlideOut 1s both ease;
+}
+.owl-backSlide-in {
+	animation:backSlideIn 1s both; -webkit-animation: backSlideIn 1s both ease; -moz-animation: backSlideIn 1s both ease;
+}
+.owl-goDown-out {
+	animation:scaleToFade 0.7s both; -webkit-animation: scaleToFade .7s ease both; -moz-animation: scaleToFade .7s ease both;
+}
+.owl-goDown-in {
+	animation:goDown 0.6s both; -webkit-animation: goDown .6s ease both; -moz-animation: goDown .6s ease both;
+}
+.owl-fadeUp-in {
+	animation:scaleUpFrom 0.5s both; -webkit-animation: scaleUpFrom .5s ease both; -moz-animation: scaleUpFrom .5s ease both;
+}
+.owl-fadeUp-out {
+	animation:scaleUpTo 0.5s both; -webkit-animation: scaleUpTo .5s ease both; -moz-animation: scaleUpTo .5s ease both;
+}

@@ -1,0 +1,7 @@
+Quản Trị: 
+username: admin
+password: 123456
+
+Khách Hàng: 
+email: demo@project.com hoặc binh@fpt.vn
+password: 123456

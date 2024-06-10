@@ -1,0 +1,915 @@
+.fluid_container {
+	overflow: hidden; margin-bottom: 30px;
+}
+.camera_wrap a {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap img {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap ol {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap ul {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap li {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap table {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap tbody {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap tfoot {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap thead {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap tr {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap th {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap td .camera_thumbs_wrap a {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap img {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap ol {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap ul {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap li {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap table {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap tbody {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap tfoot {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap thead {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap tr {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap th {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_thumbs_wrap td {
+	background: none; list-style: none; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; line-height: inherit; font-family: inherit; font-size: 100%; font-style: inherit; font-variant: inherit; font-weight: inherit; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+.camera_wrap {
+	float: left; display: none; position: relative; z-index: 0;
+}
+.camera_wrap img {
+	max-width: none !important;
+}
+.camera_fakehover {
+	width: 100%; height: 100%; position: relative; z-index: 1; min-height: 60px;
+}
+.camera_wrap {
+	width: 100%;
+}
+.camera_src {
+	display: none;
+}
+.cameraCont {
+	width: 100%; height: 100%; position: relative; z-index: 1;
+}
+.cameraContents {
+	width: 100%; height: 100%; position: relative; z-index: 1;
+}
+.cameraSlide {
+	left: 0px; top: 0px; width: 100%; right: 0px; bottom: 0px; position: absolute;
+}
+.cameraContent {
+	left: 0px; top: 0px; width: 100%; right: 0px; bottom: 0px; display: none; position: absolute;
+}
+.camera_target {
+	left: 0px; top: 0px; width: 100%; height: 100%; text-align: left; right: 0px; bottom: 0px; overflow: hidden; position: absolute; z-index: 0;
+}
+.camera_overlayer {
+	left: 0px; top: 0px; width: 100%; height: 100%; right: 0px; bottom: 0px; overflow: hidden; position: absolute; z-index: 0;
+}
+.camera_target_content {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; overflow: hidden; position: absolute; z-index: 2;
+}
+.camera_target_content .camera_link {
+	background: url("../image/blank.gif"); height: 100%; text-decoration: none; display: block;
+}
+.camera_loader {
+	background: url("../image/camera-loader.gif") no-repeat center rgba(255, 255, 255, 0.9); margin: -18px 0px 0px -18px; border-radius: 18px; border: 1px solid rgb(255, 255, 255); border-image: none; left: 50%; top: 50%; width: 36px; height: 36px; overflow: hidden; position: absolute; z-index: 3; -webkit-border-radius: 18px; -moz-border-radius: 18px;
+}
+.camera_bar {
+	left: 0px; top: 0px; right: 0px; bottom: -13px; overflow: hidden; position: absolute; z-index: 3;
+}
+.camera_left.camera_thumbs_wrap .camera_bar {
+	width: auto; height: 100%; position: absolute;
+}
+.camera_right.camera_thumbs_wrap .camera_bar {
+	width: auto; height: 100%; position: absolute;
+}
+.camera_bottom.camera_thumbs_wrap .camera_bar {
+	width: 100%; height: auto; position: absolute;
+}
+.camera_top.camera_thumbs_wrap .camera_bar {
+	width: 100%; height: auto; position: absolute;
+}
+.camera_nav_cont {
+	top: 15px; width: 120px; height: 65px; right: 9px; overflow: hidden; position: absolute; z-index: 4;
+}
+.camera_caption {
+	top: 32px; width: 100%; right: 55px; color: rgb(255, 255, 255); line-height: 22px; font-size: 15px; display: block; position: absolute; max-width: 485px;
+}
+.camera_caption h1 {
+	margin: 0px 0px 10px; color: rgb(255, 255, 255); font-size: 53px; font-weight: normal;
+}
+.camera_caption a {
+	background: url("../image/button-2.png") repeat-x left top rgb(235, 234, 234); padding: 12px 15px 12px 17px; border-radius: 5px; color: rgb(50, 50, 50); font-size: 23px; font-weight: 600; margin-top: 10px; display: inline-block; box-shadow: 1px 1px 1px rgba(0,0,0,0.17);
+}
+.camera_caption a:hover {
+	color: rgb(10, 156, 50);
+}
+.camera_caption a i {
+	color: rgb(10, 156, 50); padding-left: 15px; font-size: 23px;
+}
+.camera_caption > div {
+	
+}
+.camerarelative {
+	overflow: hidden; position: relative;
+}
+.imgFake {
+	cursor: pointer;
+}
+.camera_prevThumbs {
+	left: 0px; top: 4px; width: 30px; bottom: 4px; visibility: hidden; position: absolute; z-index: 10; cursor: pointer;
+}
+.camera_prevThumbs div {
+	background: url("../image/camera_skins.png") no-repeat -160px 0px; top: 50%; width: 30px; height: 40px; margin-top: -20px; display: block; position: absolute;
+}
+.camera_nextThumbs {
+	top: 4px; width: 30px; right: 0px; bottom: 4px; visibility: hidden; position: absolute; z-index: 10; cursor: pointer;
+}
+.camera_nextThumbs div {
+	background: url("../image/camera_skins.png") no-repeat -190px 0px; top: 50%; width: 30px; height: 40px; margin-top: -20px; display: block; position: absolute;
+}
+.camera_command_wrap .hideNav {
+	display: none;
+}
+.camera_command_wrap {
+	left: 0px; right: 0px; position: relative; z-index: 4;
+}
+.camera_wrap .camera_pag .camera_pag_ul {
+	list-style: none; margin: 0px; padding: 0px; text-align: right; right: 49px; bottom: 48px; position: absolute;
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+	border-radius: 8px; width: 16px; height: 16px; text-align: left; text-indent: -9999px; display: inline-block; position: relative; cursor: pointer; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+.camera_commands_emboss .camera_pag .camera_pag_ul li {
+	box-shadow: 0px 1px 0px rgba(255,255,255,1), inset 0px 1px 1px rgba(0,0,0,0.2); -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1), inset 0px 1px 1px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1), inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.camera_wrap .camera_pag .camera_pag_ul li > span {
+	border-radius: 5px; left: 3px; top: 3px; width: 11px; height: 11px; overflow: hidden; position: absolute; background-color: rgb(10, 156, 50); -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.camera_commands_emboss .camera_pag .camera_pag_ul li:hover > span {
+	box-shadow: 0px 1px 0px rgba(255,255,255,1), inset 0px 1px 1px rgba(0,0,0,0.2); -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1), inset 0px 1px 1px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1), inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {
+	-webkit-box-shadow: 0; -moz-box-shadow: 0;
+}
+.camera_pag_ul li img {
+	display: none; position: absolute;
+}
+.camera_pag_ul .thumb_arrow {
+	left: 50%; top: 0px; margin-left: -4px; border-top-color: currentColor; border-right-color: transparent; border-left-color: transparent; border-top-width: 4px; border-right-width: 4px; border-left-width: 4px; border-top-style: solid; border-right-style: solid; border-left-style: solid; position: absolute;
+}
+.camera_prev {
+	top: 50%; width: 39px; height: 74px; margin-top: -40px; position: absolute; z-index: 2; cursor: pointer;
+}
+.camera_next {
+	top: 50%; width: 39px; height: 74px; margin-top: -40px; position: absolute; z-index: 2; cursor: pointer;
+}
+.camera_commands {
+	top: 50%; width: 39px; height: 74px; margin-top: -40px; position: absolute; z-index: 2; cursor: pointer;
+}
+.camera_prev {
+	left: 0px;
+}
+.camera_prev:hover > span {
+	background-position: 0px bottom;
+}
+.camera_prev > span {
+	background: url("../image/prev.png") no-repeat left top; width: 39px; height: 74px; display: block;
+}
+.camera_next {
+	right: 0px;
+}
+.camera_next:hover > span {
+	background-position: 0px bottom;
+}
+.camera_next > span {
+	background: url("../image/next.png") no-repeat left top; width: 39px; height: 74px; display: block;
+}
+.camera_commands {
+	right: 41px;
+}
+.camera_commands > .camera_play {
+	background: url("../image/camera_skins.png") no-repeat -80px 0px; width: 40px; height: 40px;
+}
+.camera_commands > .camera_stop {
+	background: url("../image/camera_skins.png") no-repeat -120px 0px; width: 40px; height: 40px; display: block;
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+	border-radius: 8px; width: 17px; height: 17px; text-indent: -9999px; display: inline-block; position: relative; cursor: pointer; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+.camera_thumbs_cont {
+	width: 100%; overflow: hidden; position: relative; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; -webkit-border-bottom-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-right-radius: 4px; -moz-border-radius-bottomright: 4px;
+}
+.camera_commands_emboss .camera_thumbs_cont {
+	box-shadow: 0px 1px 0px rgba(255,255,255,1), inset 0px 1px 1px rgba(0,0,0,0.2); -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1), inset 0px 1px 1px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1), inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.camera_thumbs_cont > div {
+	width: 100%; float: left;
+}
+.camera_thumbs_cont ul {
+	padding: 3px 4px 8px; text-align: center; overflow: hidden; position: relative;
+}
+.camera_thumbs_cont ul li {
+	padding: 0px 4px; display: inline;
+}
+.camera_thumbs_cont ul li > img {
+	border: 1px solid currentColor; border-image: none; margin-top: 5px; vertical-align: bottom; cursor: pointer;
+}
+.camera_clear {
+	clear: both; display: block;
+}
+.showIt {
+	display: none;
+}
+.camera_clear {
+	margin: -1px 0px 25px; height: 1px; clear: both; display: block; position: relative;
+}
+.pattern_1 .camera_overlayer {
+	background: url("../image/patterns/overlay1.png");
+}
+.pattern_2 .camera_overlayer {
+	background: url("../image/patterns/overlay2.png");
+}
+.pattern_3 .camera_overlayer {
+	background: url("../image/patterns/overlay3.png");
+}
+.pattern_4 .camera_overlayer {
+	background: url("../image/patterns/overlay4.png");
+}
+.pattern_5 .camera_overlayer {
+	background: url("../image/patterns/overlay5.png");
+}
+.pattern_6 .camera_overlayer {
+	background: url("../image/patterns/overlay6.png");
+}
+.pattern_7 .camera_overlayer {
+	background: url("../image/patterns/overlay7.png");
+}
+.pattern_8 .camera_overlayer {
+	background: url("../image/patterns/overlay8.png");
+}
+.pattern_9 .camera_overlayer {
+	background: url("../image/patterns/overlay9.png");
+}
+.pattern_10 .camera_overlayer {
+	background: url("../image/patterns/overlay10.png");
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+	background: rgb(183, 183, 183);
+}
+.camera_wrap .camera_pag .camera_pag_ul li:hover span {
+	background: rgb(255, 255, 255);
+}
+.camera_wrap .camera_pag .camera_pag_ul li:hover {
+	background: rgb(255, 255, 255);
+}
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent span {
+	background: rgb(255, 255, 255);
+}
+.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent {
+	background: rgb(255, 255, 255);
+}
+.camera_pag_ul li img {
+	border: 4px solid rgb(230, 230, 230); border-image: none; width: 100px; box-shadow: 0px 3px 6px rgba(0,0,0,0.5); -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, .5); -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, .5);
+}
+.camera_pag_ul .thumb_arrow {
+	border-top-color: rgb(230, 230, 230);
+}
+.camera_prevThumbs {
+	
+}
+.camera_nextThumbs {
+	
+}
+.camera_prev {
+	
+}
+.camera_next {
+	
+}
+.camera_commands {
+	
+}
+.camera_thumbs_cont {
+	
+}
+.camera_wrap .camera_pag .camera_pag_ul li {
+	background: rgb(255, 255, 255); margin-left: 9px;
+}
+.camera_thumbs_cont ul li > img {
+	
+}
+.camera_amber_skin .camera_prevThumbs div {
+	background-position: -160px -160px;
+}
+.camera_amber_skin .camera_nextThumbs div {
+	background-position: -190px -160px;
+}
+.camera_amber_skin .camera_prev > span {
+	background-position: 0px -160px;
+}
+.camera_amber_skin .camera_next > span {
+	background-position: -40px -160px;
+}
+.camera_amber_skin .camera_commands > .camera_play {
+	background-position: -80px -160px;
+}
+.camera_amber_skin .camera_commands > .camera_stop {
+	background-position: -120px -160px;
+}
+.camera_ash_skin .camera_prevThumbs div {
+	background-position: -160px -200px;
+}
+.camera_ash_skin .camera_nextThumbs div {
+	background-position: -190px -200px;
+}
+.camera_ash_skin .camera_prev > span {
+	background-position: 0px -200px;
+}
+.camera_ash_skin .camera_next > span {
+	background-position: -40px -200px;
+}
+.camera_ash_skin .camera_commands > .camera_play {
+	background-position: -80px -200px;
+}
+.camera_ash_skin .camera_commands > .camera_stop {
+	background-position: -120px -200px;
+}
+.camera_azure_skin .camera_prevThumbs div {
+	background-position: -160px -240px;
+}
+.camera_azure_skin .camera_nextThumbs div {
+	background-position: -190px -240px;
+}
+.camera_azure_skin .camera_prev > span {
+	background-position: 0px -240px;
+}
+.camera_azure_skin .camera_next > span {
+	background-position: -40px -240px;
+}
+.camera_azure_skin .camera_commands > .camera_play {
+	background-position: -80px -240px;
+}
+.camera_azure_skin .camera_commands > .camera_stop {
+	background-position: -120px -240px;
+}
+.camera_beige_skin .camera_prevThumbs div {
+	background-position: -160px -120px;
+}
+.camera_beige_skin .camera_nextThumbs div {
+	background-position: -190px -120px;
+}
+.camera_beige_skin .camera_prev > span {
+	background-position: 0px -120px;
+}
+.camera_beige_skin .camera_next > span {
+	background-position: -40px -120px;
+}
+.camera_beige_skin .camera_commands > .camera_play {
+	background-position: -80px -120px;
+}
+.camera_beige_skin .camera_commands > .camera_stop {
+	background-position: -120px -120px;
+}
+.camera_black_skin .camera_prevThumbs div {
+	background-position: -160px -40px;
+}
+.camera_black_skin .camera_nextThumbs div {
+	background-position: -190px -40px;
+}
+.camera_black_skin .camera_prev > span {
+	background-position: 0px -40px;
+}
+.camera_black_skin .camera_next > span {
+	background-position: -40px -40px;
+}
+.camera_black_skin .camera_commands > .camera_play {
+	background-position: -80px -40px;
+}
+.camera_black_skin .camera_commands > .camera_stop {
+	background-position: -120px -40px;
+}
+.camera_blue_skin .camera_prevThumbs div {
+	background-position: -160px -280px;
+}
+.camera_blue_skin .camera_nextThumbs div {
+	background-position: -190px -280px;
+}
+.camera_blue_skin .camera_prev > span {
+	background-position: 0px -280px;
+}
+.camera_blue_skin .camera_next > span {
+	background-position: -40px -280px;
+}
+.camera_blue_skin .camera_commands > .camera_play {
+	background-position: -80px -280px;
+}
+.camera_blue_skin .camera_commands > .camera_stop {
+	background-position: -120px -280px;
+}
+.camera_brown_skin .camera_prevThumbs div {
+	background-position: -160px -320px;
+}
+.camera_brown_skin .camera_nextThumbs div {
+	background-position: -190px -320px;
+}
+.camera_brown_skin .camera_prev > span {
+	background-position: 0px -320px;
+}
+.camera_brown_skin .camera_next > span {
+	background-position: -40px -320px;
+}
+.camera_brown_skin .camera_commands > .camera_play {
+	background-position: -80px -320px;
+}
+.camera_brown_skin .camera_commands > .camera_stop {
+	background-position: -120px -320px;
+}
+.camera_burgundy_skin .camera_prevThumbs div {
+	background-position: -160px -360px;
+}
+.camera_burgundy_skin .camera_nextThumbs div {
+	background-position: -190px -360px;
+}
+.camera_burgundy_skin .camera_prev > span {
+	background-position: 0px -360px;
+}
+.camera_burgundy_skin .camera_next > span {
+	background-position: -40px -360px;
+}
+.camera_burgundy_skin .camera_commands > .camera_play {
+	background-position: -80px -360px;
+}
+.camera_burgundy_skin .camera_commands > .camera_stop {
+	background-position: -120px -360px;
+}
+.camera_charcoal_skin .camera_prevThumbs div {
+	background-position: -160px -400px;
+}
+.camera_charcoal_skin .camera_nextThumbs div {
+	background-position: -190px -400px;
+}
+.camera_charcoal_skin .camera_prev > span {
+	background-position: 0px -400px;
+}
+.camera_charcoal_skin .camera_next > span {
+	background-position: -40px -400px;
+}
+.camera_charcoal_skin .camera_commands > .camera_play {
+	background-position: -80px -400px;
+}
+.camera_charcoal_skin .camera_commands > .camera_stop {
+	background-position: -120px -400px;
+}
+.camera_chocolate_skin .camera_prevThumbs div {
+	background-position: -160px -440px;
+}
+.camera_chocolate_skin .camera_nextThumbs div {
+	background-position: -190px -440px;
+}
+.camera_chocolate_skin .camera_prev > span {
+	background-position: 0px -440px;
+}
+.camera_chocolate_skin .camera_next > span {
+	background-position: -40px -440px;
+}
+.camera_chocolate_skin .camera_commands > .camera_play {
+	background-position: -80px -440px;
+}
+.camera_chocolate_skin .camera_commands > .camera_stop {
+	background-position: -120px -440px;
+}
+.camera_coffee_skin .camera_prevThumbs div {
+	background-position: -160px -480px;
+}
+.camera_coffee_skin .camera_nextThumbs div {
+	background-position: -190px -480px;
+}
+.camera_coffee_skin .camera_prev > span {
+	background-position: 0px -480px;
+}
+.camera_coffee_skin .camera_next > span {
+	background-position: -40px -480px;
+}
+.camera_coffee_skin .camera_commands > .camera_play {
+	background-position: -80px -480px;
+}
+.camera_coffee_skin .camera_commands > .camera_stop {
+	background-position: -120px -480px;
+}
+.camera_cyan_skin .camera_prevThumbs div {
+	background-position: -160px -520px;
+}
+.camera_cyan_skin .camera_nextThumbs div {
+	background-position: -190px -520px;
+}
+.camera_cyan_skin .camera_prev > span {
+	background-position: 0px -520px;
+}
+.camera_cyan_skin .camera_next > span {
+	background-position: -40px -520px;
+}
+.camera_cyan_skin .camera_commands > .camera_play {
+	background-position: -80px -520px;
+}
+.camera_cyan_skin .camera_commands > .camera_stop {
+	background-position: -120px -520px;
+}
+.camera_fuchsia_skin .camera_prevThumbs div {
+	background-position: -160px -560px;
+}
+.camera_fuchsia_skin .camera_nextThumbs div {
+	background-position: -190px -560px;
+}
+.camera_fuchsia_skin .camera_prev > span {
+	background-position: 0px -560px;
+}
+.camera_fuchsia_skin .camera_next > span {
+	background-position: -40px -560px;
+}
+.camera_fuchsia_skin .camera_commands > .camera_play {
+	background-position: -80px -560px;
+}
+.camera_fuchsia_skin .camera_commands > .camera_stop {
+	background-position: -120px -560px;
+}
+.camera_gold_skin .camera_prevThumbs div {
+	background-position: -160px -600px;
+}
+.camera_gold_skin .camera_nextThumbs div {
+	background-position: -190px -600px;
+}
+.camera_gold_skin .camera_prev > span {
+	background-position: 0px -600px;
+}
+.camera_gold_skin .camera_next > span {
+	background-position: -40px -600px;
+}
+.camera_gold_skin .camera_commands > .camera_play {
+	background-position: -80px -600px;
+}
+.camera_gold_skin .camera_commands > .camera_stop {
+	background-position: -120px -600px;
+}
+.camera_green_skin .camera_prevThumbs div {
+	background-position: -160px -640px;
+}
+.camera_green_skin .camera_nextThumbs div {
+	background-position: -190px -640px;
+}
+.camera_green_skin .camera_prev > span {
+	background-position: 0px -640px;
+}
+.camera_green_skin .camera_next > span {
+	background-position: -40px -640px;
+}
+.camera_green_skin .camera_commands > .camera_play {
+	background-position: -80px -640px;
+}
+.camera_green_skin .camera_commands > .camera_stop {
+	background-position: -120px -640px;
+}
+.camera_grey_skin .camera_prevThumbs div {
+	background-position: -160px -680px;
+}
+.camera_grey_skin .camera_nextThumbs div {
+	background-position: -190px -680px;
+}
+.camera_grey_skin .camera_prev > span {
+	background-position: 0px -680px;
+}
+.camera_grey_skin .camera_next > span {
+	background-position: -40px -680px;
+}
+.camera_grey_skin .camera_commands > .camera_play {
+	background-position: -80px -680px;
+}
+.camera_grey_skin .camera_commands > .camera_stop {
+	background-position: -120px -680px;
+}
+.camera_indigo_skin .camera_prevThumbs div {
+	background-position: -160px -720px;
+}
+.camera_indigo_skin .camera_nextThumbs div {
+	background-position: -190px -720px;
+}
+.camera_indigo_skin .camera_prev > span {
+	background-position: 0px -720px;
+}
+.camera_indigo_skin .camera_next > span {
+	background-position: -40px -720px;
+}
+.camera_indigo_skin .camera_commands > .camera_play {
+	background-position: -80px -720px;
+}
+.camera_indigo_skin .camera_commands > .camera_stop {
+	background-position: -120px -720px;
+}
+.camera_khaki_skin .camera_prevThumbs div {
+	background-position: -160px -760px;
+}
+.camera_khaki_skin .camera_nextThumbs div {
+	background-position: -190px -760px;
+}
+.camera_khaki_skin .camera_prev > span {
+	background-position: 0px -760px;
+}
+.camera_khaki_skin .camera_next > span {
+	background-position: -40px -760px;
+}
+.camera_khaki_skin .camera_commands > .camera_play {
+	background-position: -80px -760px;
+}
+.camera_khaki_skin .camera_commands > .camera_stop {
+	background-position: -120px -760px;
+}
+.camera_lime_skin .camera_prevThumbs div {
+	background-position: -160px -800px;
+}
+.camera_lime_skin .camera_nextThumbs div {
+	background-position: -190px -800px;
+}
+.camera_lime_skin .camera_prev > span {
+	background-position: 0px -800px;
+}
+.camera_lime_skin .camera_next > span {
+	background-position: -40px -800px;
+}
+.camera_lime_skin .camera_commands > .camera_play {
+	background-position: -80px -800px;
+}
+.camera_lime_skin .camera_commands > .camera_stop {
+	background-position: -120px -800px;
+}
+.camera_magenta_skin .camera_prevThumbs div {
+	background-position: -160px -840px;
+}
+.camera_magenta_skin .camera_nextThumbs div {
+	background-position: -190px -840px;
+}
+.camera_magenta_skin .camera_prev > span {
+	background-position: 0px -840px;
+}
+.camera_magenta_skin .camera_next > span {
+	background-position: -40px -840px;
+}
+.camera_magenta_skin .camera_commands > .camera_play {
+	background-position: -80px -840px;
+}
+.camera_magenta_skin .camera_commands > .camera_stop {
+	background-position: -120px -840px;
+}
+.camera_maroon_skin .camera_prevThumbs div {
+	background-position: -160px -880px;
+}
+.camera_maroon_skin .camera_nextThumbs div {
+	background-position: -190px -880px;
+}
+.camera_maroon_skin .camera_prev > span {
+	background-position: 0px -880px;
+}
+.camera_maroon_skin .camera_next > span {
+	background-position: -40px -880px;
+}
+.camera_maroon_skin .camera_commands > .camera_play {
+	background-position: -80px -880px;
+}
+.camera_maroon_skin .camera_commands > .camera_stop {
+	background-position: -120px -880px;
+}
+.camera_orange_skin .camera_prevThumbs div {
+	background-position: -160px -920px;
+}
+.camera_orange_skin .camera_nextThumbs div {
+	background-position: -190px -920px;
+}
+.camera_orange_skin .camera_prev > span {
+	background-position: 0px -920px;
+}
+.camera_orange_skin .camera_next > span {
+	background-position: -40px -920px;
+}
+.camera_orange_skin .camera_commands > .camera_play {
+	background-position: -80px -920px;
+}
+.camera_orange_skin .camera_commands > .camera_stop {
+	background-position: -120px -920px;
+}
+.camera_olive_skin .camera_prevThumbs div {
+	background-position: -160px -1080px;
+}
+.camera_olive_skin .camera_nextThumbs div {
+	background-position: -190px -1080px;
+}
+.camera_olive_skin .camera_prev > span {
+	background-position: 0px -1080px;
+}
+.camera_olive_skin .camera_next > span {
+	background-position: -40px -1080px;
+}
+.camera_olive_skin .camera_commands > .camera_play {
+	background-position: -80px -1080px;
+}
+.camera_olive_skin .camera_commands > .camera_stop {
+	background-position: -120px -1080px;
+}
+.camera_pink_skin .camera_prevThumbs div {
+	background-position: -160px -960px;
+}
+.camera_pink_skin .camera_nextThumbs div {
+	background-position: -190px -960px;
+}
+.camera_pink_skin .camera_prev > span {
+	background-position: 0px -960px;
+}
+.camera_pink_skin .camera_next > span {
+	background-position: -40px -960px;
+}
+.camera_pink_skin .camera_commands > .camera_play {
+	background-position: -80px -960px;
+}
+.camera_pink_skin .camera_commands > .camera_stop {
+	background-position: -120px -960px;
+}
+.camera_pistachio_skin .camera_prevThumbs div {
+	background-position: -160px -1040px;
+}
+.camera_pistachio_skin .camera_nextThumbs div {
+	background-position: -190px -1040px;
+}
+.camera_pistachio_skin .camera_prev > span {
+	background-position: 0px -1040px;
+}
+.camera_pistachio_skin .camera_next > span {
+	background-position: -40px -1040px;
+}
+.camera_pistachio_skin .camera_commands > .camera_play {
+	background-position: -80px -1040px;
+}
+.camera_pistachio_skin .camera_commands > .camera_stop {
+	background-position: -120px -1040px;
+}
+.camera_pink_skin .camera_prevThumbs div {
+	background-position: -160px -80px;
+}
+.camera_pink_skin .camera_nextThumbs div {
+	background-position: -190px -80px;
+}
+.camera_pink_skin .camera_prev > span {
+	background-position: 0px -80px;
+}
+.camera_pink_skin .camera_next > span {
+	background-position: -40px -80px;
+}
+.camera_pink_skin .camera_commands > .camera_play {
+	background-position: -80px -80px;
+}
+.camera_pink_skin .camera_commands > .camera_stop {
+	background-position: -120px -80px;
+}
+.camera_red_skin .camera_prevThumbs div {
+	background-position: -160px -1000px;
+}
+.camera_red_skin .camera_nextThumbs div {
+	background-position: -190px -1000px;
+}
+.camera_red_skin .camera_prev > span {
+	background-position: 0px -1000px;
+}
+.camera_red_skin .camera_next > span {
+	background-position: -40px -1000px;
+}
+.camera_red_skin .camera_commands > .camera_play {
+	background-position: -80px -1000px;
+}
+.camera_red_skin .camera_commands > .camera_stop {
+	background-position: -120px -1000px;
+}
+.camera_tangerine_skin .camera_prevThumbs div {
+	background-position: -160px -1120px;
+}
+.camera_tangerine_skin .camera_nextThumbs div {
+	background-position: -190px -1120px;
+}
+.camera_tangerine_skin .camera_prev > span {
+	background-position: 0px -1120px;
+}
+.camera_tangerine_skin .camera_next > span {
+	background-position: -40px -1120px;
+}
+.camera_tangerine_skin .camera_commands > .camera_play {
+	background-position: -80px -1120px;
+}
+.camera_tangerine_skin .camera_commands > .camera_stop {
+	background-position: -120px -1120px;
+}
+.camera_turquoise_skin .camera_prevThumbs div {
+	background-position: -160px -1160px;
+}
+.camera_turquoise_skin .camera_nextThumbs div {
+	background-position: -190px -1160px;
+}
+.camera_turquoise_skin .camera_prev > span {
+	background-position: 0px -1160px;
+}
+.camera_turquoise_skin .camera_next > span {
+	background-position: -40px -1160px;
+}
+.camera_turquoise_skin .camera_commands > .camera_play {
+	background-position: -80px -1160px;
+}
+.camera_turquoise_skin .camera_commands > .camera_stop {
+	background-position: -120px -1160px;
+}
+.camera_violet_skin .camera_prevThumbs div {
+	background-position: -160px -1200px;
+}
+.camera_violet_skin .camera_nextThumbs div {
+	background-position: -190px -1200px;
+}
+.camera_violet_skin .camera_prev > span {
+	background-position: 0px -1200px;
+}
+.camera_violet_skin .camera_next > span {
+	background-position: -40px -1200px;
+}
+.camera_violet_skin .camera_commands > .camera_play {
+	background-position: -80px -1200px;
+}
+.camera_violet_skin .camera_commands > .camera_stop {
+	background-position: -120px -1200px;
+}
+.camera_white_skin .camera_prevThumbs div {
+	background-position: -160px -80px;
+}
+.camera_white_skin .camera_nextThumbs div {
+	background-position: -190px -80px;
+}
+.camera_white_skin .camera_prev > span {
+	background-position: 0px -80px;
+}
+.camera_white_skin .camera_next > span {
+	background-position: -40px -80px;
+}
+.camera_white_skin .camera_commands > .camera_play {
+	background-position: -80px -80px;
+}
+.camera_white_skin .camera_commands > .camera_stop {
+	background-position: -120px -80px;
+}
+.camera_yellow_skin .camera_prevThumbs div {
+	background-position: -160px -1240px;
+}
+.camera_yellow_skin .camera_nextThumbs div {
+	background-position: -190px -1240px;
+}
+.camera_yellow_skin .camera_prev > span {
+	background-position: 0px -1240px;
+}
+.camera_yellow_skin .camera_next > span {
+	background-position: -40px -1240px;
+}
+.camera_yellow_skin .camera_commands > .camera_play {
+	background-position: -80px -1240px;
+}
+.camera_yellow_skin .camera_commands > .camera_stop {
+	background-position: -120px -1240px;
+}

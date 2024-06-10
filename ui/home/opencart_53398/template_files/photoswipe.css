@@ -1,0 +1,112 @@
+body.ps-active {
+    overflow: hidden;
+    -webkit-text-size-adjust: none;
+}
+body.ps-active * {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+body.ps-active *:focus {
+    outline: 0px;
+}
+div.ps-document-overlay {
+    background: rgb(0, 0, 0);
+}
+div.ps-viewport {
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+}
+div.ps-zoom-pan-rotate {
+    background: rgb(0, 0, 0);
+}
+div.ps-slider-item-loading {
+    background: url("../image/photoswipe-loader.gif") no-repeat center;
+}
+div.ps-caption {
+    background: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    border-bottom-color: rgb(66, 64, 63);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+div.ps-caption-bottom {
+    border-top-color: rgb(66, 64, 63);
+    border-bottom-color: currentColor;
+    border-top-width: 1px;
+    border-bottom-width: medium;
+    border-top-style: solid;
+    border-bottom-style: none;
+}
+div.ps-caption-content {
+    padding: 13px;
+}
+div.ps-toolbar {
+    background: rgb(0, 0, 0);
+    height: 44px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    border-top-color: rgb(66, 64, 63);
+    border-top-width: 1px;
+    border-top-style: solid;
+    display: table;
+    table-layout: fixed;
+}
+div.ps-toolbar-top {
+    border-top-color: currentColor;
+    border-bottom-color: rgb(66, 64, 63);
+    border-top-width: medium;
+    border-bottom-width: 1px;
+    border-top-style: none;
+    border-bottom-style: solid;
+}
+div.ps-toolbar-close {
+    display: table-cell;
+    cursor: pointer;
+}
+div.ps-toolbar-previous {
+    display: table-cell;
+    cursor: pointer;
+}
+div.ps-toolbar-next {
+    display: table-cell;
+    cursor: pointer;
+}
+div.ps-toolbar-play {
+    display: table-cell;
+    cursor: pointer;
+}
+div.ps-toolbar div div.ps-toolbar-content {
+    margin: 0px auto;
+    width: 44px;
+    height: 44px;
+    background-image: url("../image/photoswipe-icons.png");
+    background-repeat: no-repeat;
+}
+div.ps-toolbar-close div.ps-toolbar-content {
+    background-position: 0px 0px;
+}
+div.ps-toolbar-previous div.ps-toolbar-content {
+    background-position: -44px 0px;
+}
+div.ps-toolbar-previous-disabled div.ps-toolbar-content {
+    background-position: -44px -44px;
+}
+div.ps-toolbar-next div.ps-toolbar-content {
+    background-position: -132px 0px;
+}
+div.ps-toolbar-next-disabled div.ps-toolbar-content {
+    background-position: -132px -44px;
+}
+div.ps-toolbar-play div.ps-toolbar-content {
+    background-position: -88px 0px;
+}
+@media not all {
+    div.ps-toolbar div div.ps-toolbar-content {
+        background-image: url("../image/photoswipe-icons@2x.png");
+        -webkit-background-size: 176px 88px;
+    }
+}

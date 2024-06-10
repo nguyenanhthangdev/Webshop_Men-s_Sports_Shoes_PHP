@@ -1,0 +1,9 @@
+
+2021.04.25 23h11
+- Loại bỏ hàm productsRelated() trong table.product.php
+
+2021.04.24
+- Nâng cấp hàm banner_imageActives() trong file table.banner_image.php
+sử dụng kĩ thuật duyệt mảng theo kiểu tham chiếu (for loop iterate an array by reference)
+- Bổ sung đoạn mã xử lý giá sản phẩm trên banner ảnh: banner-image-form.php, view-banner-image-form.php
+- bổ sung hàm url_image_resized() trong file global.php

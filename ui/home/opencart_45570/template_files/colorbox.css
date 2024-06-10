@@ -1,0 +1,147 @@
+#colorbox {
+	left: 0px; top: 0px; overflow: hidden; position: absolute; z-index: 9999;
+}
+#cboxOverlay {
+	left: 0px; top: 0px; overflow: hidden; position: absolute; z-index: 9999;
+}
+#cboxWrapper {
+	left: 0px; top: 0px; overflow: hidden; position: absolute; z-index: 9999;
+}
+#cboxOverlay {
+	width: 100%; height: 100%; position: fixed;
+}
+#cboxMiddleLeft {
+	clear: left;
+}
+#cboxBottomLeft {
+	clear: left;
+}
+#cboxContent {
+	position: relative;
+}
+#cboxLoadedContent {
+	overflow: auto;
+}
+#cboxTitle {
+	margin: 0px;
+}
+#cboxLoadingOverlay {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+#cboxLoadingGraphic {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+#cboxPrevious {
+	cursor: pointer;
+}
+#cboxNext {
+	cursor: pointer;
+}
+#cboxClose {
+	cursor: pointer;
+}
+#cboxSlideshow {
+	cursor: pointer;
+}
+.cboxPhoto {
+	margin: auto; border: 0px currentColor; border-image: none; float: left; display: block;
+}
+.cboxIframe {
+	border: 0px currentColor; border-image: none; width: 100%; height: 100%; display: block;
+}
+#cboxOverlay {
+	background: rgb(0, 0, 0);
+}
+#colorbox {
+	
+}
+#cboxTopLeft {
+	background: url("images/controls.png") no-repeat 0px 0px; width: 14px; height: 14px;
+}
+#cboxTopCenter {
+	background: url("images/border.png") repeat-x left top; height: 14px;
+}
+#cboxTopRight {
+	background: url("images/controls.png") no-repeat -36px 0px; width: 14px; height: 14px;
+}
+#cboxBottomLeft {
+	background: url("images/controls.png") no-repeat 0px -32px; width: 14px; height: 43px;
+}
+#cboxBottomCenter {
+	background: url("images/border.png") repeat-x left bottom; height: 43px;
+}
+#cboxBottomRight {
+	background: url("images/controls.png") no-repeat -36px -32px; width: 14px; height: 43px;
+}
+#cboxMiddleLeft {
+	background: url("images/controls.png") repeat-y -175px 0px; width: 14px;
+}
+#cboxMiddleRight {
+	background: url("images/controls.png") repeat-y -211px 0px; width: 14px;
+}
+#cboxContent {
+	background: rgb(255, 255, 255); overflow: visible;
+}
+.cboxIframe {
+	background: rgb(255, 255, 255);
+}
+#cboxError {
+	padding: 50px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+#cboxLoadedContent {
+	margin-bottom: 5px;
+}
+#cboxLoadingOverlay {
+	background: url("images/loading_background.png") no-repeat center;
+}
+#cboxLoadingGraphic {
+	background: url("images/loading.gif") no-repeat center;
+}
+#cboxTitle {
+	left: 0px; width: 100%; text-align: center; bottom: -25px; color: rgb(124, 124, 124); font-weight: bold; position: absolute;
+}
+#cboxCurrent {
+	left: 58px; bottom: -25px; color: rgb(124, 124, 124); font-weight: bold; position: absolute;
+}
+#cboxPrevious {
+	background: url("images/controls.png") no-repeat 0px 0px; width: 23px; height: 23px; bottom: -29px; text-indent: -9999px; position: absolute;
+}
+#cboxNext {
+	background: url("images/controls.png") no-repeat 0px 0px; width: 23px; height: 23px; bottom: -29px; text-indent: -9999px; position: absolute;
+}
+#cboxClose {
+	background: url("images/controls.png") no-repeat 0px 0px; width: 23px; height: 23px; bottom: -29px; text-indent: -9999px; position: absolute;
+}
+#cboxSlideshow {
+	background: url("images/controls.png") no-repeat 0px 0px; width: 23px; height: 23px; bottom: -29px; text-indent: -9999px; position: absolute;
+}
+#cboxPrevious {
+	background-position: -51px -25px; left: 0px;
+}
+#cboxPrevious:hover {
+	background-position: -51px 0px;
+}
+#cboxNext {
+	background-position: -75px -25px; left: 27px;
+}
+#cboxNext:hover {
+	background-position: -75px 0px;
+}
+#cboxClose {
+	background-position: -100px -25px; right: 0px;
+}
+#cboxClose:hover {
+	background-position: -100px 0px;
+}
+.cboxSlideshow_on #cboxSlideshow {
+	background-position: -125px 0px; right: 27px;
+}
+.cboxSlideshow_on #cboxSlideshow:hover {
+	background-position: -150px 0px;
+}
+.cboxSlideshow_off #cboxSlideshow {
+	background-position: -150px -25px; right: 27px;
+}
+.cboxSlideshow_off #cboxSlideshow:hover {
+	background-position: -125px 0px;
+}

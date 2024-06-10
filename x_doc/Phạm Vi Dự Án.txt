@@ -1,0 +1,6 @@
+- 1 ngôn ngữ: Vietnam
+- 1 loại tiền: vnd
+- 1 cửa hàng (one shop), chứ không phải chuỗi (chain shops)
+- Không có phòng ban (No Department)
+- Không có nghề nghiệp của nhân vien (No Job Title)
+- Thanh toán tiền mặt hoặc chuyển khoản, Không sử dụng hệ thống thanh toán trực tuyến tích hợp

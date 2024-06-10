@@ -1,0 +1,36 @@
+#livesearch_search_results {
+	margin: 0px; padding: 5px !important; border-radius: 3px; border: 1px solid rgb(88, 101, 113); border-image: none; left: 0px; top: 32px; width: 214px; list-style-type: none; position: absolute; z-index: 12; background-color: rgb(46, 52, 59);
+}
+#livesearch_search_results li {
+	padding: 0px; border-radius: 2px; overflow: hidden;
+}
+#livesearch_search_results a {
+	color: rgb(136, 161, 186); font-size: 12px; text-decoration: none;
+}
+#livesearch_search_results a:visited {
+	color: rgb(136, 161, 186); font-size: 12px; text-decoration: none;
+}
+#livesearch_search_results a:hover {
+	color: rgb(136, 161, 186); font-size: 12px; text-decoration: none;
+}
+#livesearch_search_results a {
+	padding: 5px; color: rgb(136, 161, 186); float: left; display: block;
+}
+#livesearch_search_results a:hover {
+	color: rgb(255, 255, 255);
+}
+#livesearch_search_results li:hover {
+	background-color: rgb(126, 206, 253);
+}
+#livesearch_search_results .highlighted a {
+	color: rgb(255, 255, 255);
+}
+#livesearch_search_results .highlighted {
+	background-color: rgb(126, 206, 253);
+}
+#livesearch_search_results li img {
+	overflow: hidden; margin-right: 10px; float: left;
+}
+#livesearch_search_results li img.loading {
+	background: rgb(245, 245, 245);
+}
